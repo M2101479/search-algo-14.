@@ -3,7 +3,7 @@ import time
 
 start=time.time()
 
-fruits= [i for i in range(1000000)]
+numbers= [i for i in range(1000000)]
 
 
 def find(element,value):
@@ -19,7 +19,7 @@ def find(element,value):
 
 end=time.time()
 
-print(find(fruits,int(input('Enter a number'))))
+print(find(numbers,int(input('Enter a number'))))
 print("It took ",end-start,' seconds')
 
 #test1-0.11911129951477051  seconds with 45
